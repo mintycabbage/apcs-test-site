@@ -1,0 +1,54 @@
+body {
+  font-family: 'Courier New', Courier, monospace
+}
+
+a {
+  color: rgb(255,81,0);
+}
+
+a:hover {
+  color: rgb(200,255,0)
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(0,174,255);
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.projects, #aboutme img {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(0,174,255);
+}
+
+.projects img, iframe, #aboutme img {
+  width: 400px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.projects h2, #aboutme h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
