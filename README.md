@@ -1,3 +1,3 @@
-#projects site
+#Projects site
 
 Built in AP CS class
